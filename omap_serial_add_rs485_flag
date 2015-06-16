@@ -1,4 +1,10 @@
-This patch is based on Ilya Yanok <yanok@xxxxxxxxxxx> and Javier Martinez Canillas <martinez.javier@xxxxxxxxx>. And I do some revising a little bit to make thisdriver can switch RS232 mode to RS485 mode with user application. When I transmit data from our board, then RTS will be pulled high immediatly, if you stop this action, the RTS signal will be pulled down automatically.
+This patch is based on Ilya Yanok <yanok@xxxxxxxxxxx> and 
+Javier Martinez Canillas <martinez.javier@xxxxxxxxx>. 
+And I do some revising a little bit to make thisdriver can 
+switch RS232 mode to RS485 mode with user application. 
+When I transmit data from our board, then RTS will be pulled 
+high immediatly, if you stop this action, the RTS signal will 
+be pulled down automatically.
 
 reference:
 
